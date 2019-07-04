@@ -7,7 +7,7 @@ import UIKit
  Project home: https://github.com/evgenyneu/swift-badge
  
  */
-@IBDesignable open class BadgeSwift: UILabel {
+open class BadgeSwift: UILabel {
   
   /// Background color of the badge
   @IBInspectable open var badgeColor: UIColor = UIColor.red {
